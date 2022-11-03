@@ -12,7 +12,7 @@ const SideNav = () => {
         </div>
         <ul className='flex flex-col mt-5'>
           <li className='py-4 pr-4 border-teal-500 border-l-4 text-teal-500 hover:border-teal-500 hover:text-teal-500'>
-            <Link to='/' className='flex'>
+            <Link to='/' className='flex items-center'>
               <span className='outline-none px-4'>
                 <logo.Trello />
               </span>
@@ -20,7 +20,7 @@ const SideNav = () => {
             </Link>
           </li>
           <li className='py-4 pr-4 border-l-[#fff] border-l-4 text-[#707275] hover:border-teal-500 hover:text-teal-500'>
-            <Link to='/products' className='flex'>
+            <Link to='/products' className='flex items-center'>
               <span className='outline-none px-4'>
                 <logo.ShoppingBag />
               </span>
@@ -28,7 +28,7 @@ const SideNav = () => {
             </Link>
           </li>
           <li className='py-4 pr-4 border-l-[#fff] border-l-4 text-[#707275] hover:border-teal-500 hover:text-teal-500'>
-            <Link to='/' className='flex'>
+            <Link to='/' className='flex items-center'>
               <span className='outline-none px-4'>
                 <logo.Menu />
               </span>
@@ -36,7 +36,7 @@ const SideNav = () => {
             </Link>
           </li>
           <li className='py-4 pr-4 border-l-[#fff] border-l-4 text-[#707275] hover:border-teal-500 hover:text-teal-500'>
-            <Link to='/' className='flex'>
+            <Link to='/' className='flex items-center'>
               <span className='outline-none px-4'>
                 <logo.Users />
               </span>
@@ -44,7 +44,7 @@ const SideNav = () => {
             </Link>
           </li>
           <li className='py-4 pr-4 border-l-[#fff] border-l-4 text-[#707275] hover:border-teal-500 hover:text-teal-500'>
-            <Link to='/' className='flex'>
+            <Link to='/' className='flex items-center'>
               <span className='outline-none px-4'>
                 <logo.Compass />
               </span>
@@ -52,7 +52,7 @@ const SideNav = () => {
             </Link>
           </li>
           <li className='py-4 pr-4 border-l-[#fff] border-l-4 text-[#707275] hover:border-teal-500 hover:text-teal-500'>
-            <Link to='/' className='flex'>
+            <Link to='/' className='flex items-center'>
               <span className='outline-none px-4'>
                 <logo.Gift />
               </span>
@@ -60,7 +60,7 @@ const SideNav = () => {
             </Link>
           </li>
           <li className='py-4 pr-4 border-l-[#fff] border-l-4 text-[#707275] hover:border-teal-500 hover:text-teal-500'>
-            <Link to='/' className='flex'>
+            <Link to='/' className='flex items-center'>
               <span className='outline-none px-4'>
                 <logo.User />
               </span>
@@ -68,7 +68,7 @@ const SideNav = () => {
             </Link>
           </li>
           <li className='py-4 pr-4 border-l-[#fff] border-l-4 text-[#707275] hover:border-teal-500 hover:text-teal-500'>
-            <Link to='/' className='flex'>
+            <Link to='/' className='flex items-center'>
               <span className='outline-none px-4'>
                 <logo.Settings />
               </span>
