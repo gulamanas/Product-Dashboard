@@ -1,12 +1,11 @@
-import { Outlet, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Products from "./products/Products";
 
 const Main = () => {
   return (
-    <main className="">
-      <Outlet />
+    <main className=''>
       <Routes>
-        <Route path="/products" element={<Products />} />
+        <Route path='/products' element={<Products />} />
       </Routes>
     </main>
   );
