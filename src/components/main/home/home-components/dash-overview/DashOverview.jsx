@@ -7,19 +7,19 @@ function DashOverview(props) {
         icon={logo.Layers}
         title={"Today Order"}
         amount={345}
-        backgroundColor="Red"
+        backgroundColor="bg-teal-500"
       />
       <DashOverviewCompo
         icon={logo.ShoppingCart}
         title={"This Month"}
         amount={5656}
-        backgroundColor="Green"
+        // backgroundColor="Green"
       />
       <DashOverviewCompo
         icon={logo.CreditCard}
         title={"This Year"}
         amount={935456}
-        backgroundColor="Yellow"
+        // backgroundColor="Yellow"
       />
     </div>
   );

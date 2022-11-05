@@ -1,7 +1,13 @@
+//New package for the importing class names
+// import { classnames } from "classnames";
 function DashOverviewCompo(props) {
-  //   console.log(props.icon);
+  //   const classStr = classnames(
+  //     "flex flex-col p-6 w-full text-white rounded-lg",
+  //     props.backgroundColor
+  //   );
+
   return (
-    <div className="flex flex-col bg-teal-500 p-6 w-full text-white rounded-lg">
+    <div className="flex flex-col p-6 w-full text-white rounded-lg bg-teal-500">
       <div>
         <div className="dash-icon">
           <props.icon />
