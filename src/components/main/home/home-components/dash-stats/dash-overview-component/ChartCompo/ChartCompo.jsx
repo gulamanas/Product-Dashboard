@@ -1,8 +1,9 @@
-import { Line } from "react-chartjs-2";
+import { Line, Pie } from "react-chartjs-2";
 function ChartCompo(props) {
   return (
-    <div>
-      <Line options={props.options} data={props.data} />
+    <div style={{ width: "400px" }}>
+      <Line options={props.lineOptions} data={props.lineData} />
+      <Pie data={props.pieData} />
     </div>
   );
 }

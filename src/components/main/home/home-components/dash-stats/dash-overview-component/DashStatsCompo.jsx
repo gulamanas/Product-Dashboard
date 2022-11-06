@@ -9,10 +9,12 @@ import {
   Title,
   Tooltip,
   Legend,
+  ArcElement,
 } from "chart.js";
 
 ChartJS.register(
   CategoryScale,
+  ArcElement,
   LinearScale,
   PointElement,
   LineElement,
@@ -39,12 +41,27 @@ export const lineData = {
       data: [74, 201, 72],
       backgroundColor: "#10B981",
       borderColor: "#10B981",
+      borderWidth: 3,
     },
     {
       label: "Order",
-      data: [37, 42, 20],
+      data: [10, 15, 190],
       backgroundColor: "#F44236",
       borderColor: "#F44236",
+      borderWidth: 3,
+    },
+  ],
+};
+
+export const pieData = {
+  labels: ["Item-1", "Item-2", "Item-3", "Item-4"],
+  datasets: [
+    {
+      label: "Sales",
+      data: [10, 20, 30, 40],
+      backgroundColor: ["#10b981", "#3b82f6", "#f97316", "#0ea5e9"],
+      borderColor: ["#fff"],
+      borderWidth: 3,
     },
   ],
 };
@@ -59,12 +76,16 @@ function DashStatsCompo() {
             <button type="button">Sales</button>
           </li>
           <li>
-            <button type="button">Sales</button>
+            <button type="button">Order</button>
           </li>
         </ul>
       </div>
       {/* <Line options={options} data={data} /> */}
-      <ChartCompo options={lineOptions} data={lineData} />
+      <ChartCompo
+        lineOptions={lineOptions}
+        lineData={lineData}
+        pieData={pieData}
+      />
     </div>
   );
 }
